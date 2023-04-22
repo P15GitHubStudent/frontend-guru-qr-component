@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!--
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 -->
+
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | QR code component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      body
+      {
+        background-color: hsl(212, 45%, 89%);
+      }
+
+      .background-color-white
+      {
+        background-color: hsl(0, 0%, 100%);
+      }
+
+      .container {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 0 3.2rem;
+        align-items: center;
+      }
+
+      .card-container
+      {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .text-bold
+      {
+        color: hsl(218, 44%, 22%);
+        font-weight: 700;
+      }
+
+      .text-secondary
+      {
+        font-weight: 500;
+        color: hsl(220, 15%, 55%);
+      }
+
+      .card
+      {
+        width: 400px;
+        height: 600px;
+        margin: 0 auto;
+        color: #000;
+         background-color: hsl(0, 0%, 100%);
+         border-radius: 15px;
+
+      }
+
+      .card-img-box
+      {
+        display: flex;
+        justify-content: center;
+      }
+
+      .card-text-box
+      {
+        padding: 1rem 3rem 2rem 3rem;
+      }
+
+      .card-img-box
+      {
+        padding: 0.9rem;
+      }
+
+      .card-img-box img
+      {
+        width: 96%;
+        height: auto;
+        border-radius: 15px;
+      }
+
+      .text-heading
+      {
+        font-size:  1.25rem;
+        font-weight: 700;
+      }
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-container">
+           <div class="card-img-box">
+          <img clas="card-img" src="./images/image-qr-code.png"></img>
+        </div>
+        <div class="card-text-box">
+          <p class="text-heading">Improve your front-end skills by building projects</p>
+          <p class="text-secondary">&nbsp; Scann the QR Code to visit the frontend Mentor and take
+            your coding skills to the next level </p>
+        </div>
+        </div>
+
+      </div>
+
+
+    </div>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Alex</a>.
+    </div> -->
+
+  </body>
+</html>
